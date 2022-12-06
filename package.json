@@ -5,6 +5,6 @@
     "lerna": "^6.1.0"
   },
   "workspaces": [
-    "packages/web-components"
+    "packages/*"
   ]
 }

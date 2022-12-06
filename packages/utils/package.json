@@ -1,11 +1,7 @@
 {
-  "name": "my-lit-package",
+  "name": "uikit-utils",
   "private": false,
   "version": "0.0.7",
-  "description": "A simple web component",
-  "assets": [
-    "./src/components/assets"
-  ],
   "scripts": {
     "build": "rimraf dist && rollup --config",
     "test": "jest"
@@ -15,10 +11,7 @@
     "@web/rollup-plugin-copy": "^0.3.0",
     "eslint": "^8.15.0",
     "jest": "^27.4.3",
-    "lit": "^2.2.4",
-    "lit-analyzer": "^1.2.1",
     "prettier": "^2.6.2",
-    "uikit-utils":"*",
     "rimraf": "^3.0.2",
     "rollup": "^2.60.2",
     "rollup-plugin-copy-assets": "^2.0.3",
@@ -29,6 +22,5 @@
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
-  },
-  "customElements": "custom-elements.json"
+  }
 }
