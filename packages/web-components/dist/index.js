@@ -768,7 +768,6 @@ exports.CometChatButton = class CometChatButton extends lit.LitElement {
         this.onClick = () => {
             CometChatSoundManager.play(CometChatSoundManager.Sound.outgoingMessage);
         };
-        // test 
         this.style = {
             height: "fit-content",
             width: "fit-content",
@@ -1208,7 +1207,6 @@ exports.CometChatSearch = class CometChatSearch extends lit.LitElement {
         this.placeholderText = "Start typing...";
         this.searchCallback = () => { };
         this.searchIconURL = `../assets/search.svg`;
-        // allalala
         this.style = {
             height: "fit-content",
             width: "fit-content",
