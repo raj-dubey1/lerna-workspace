@@ -1,7 +1,7 @@
 {
   "name": "my-lit-package",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple web component",
   "assets": [
     "./src/components/assets"
@@ -25,7 +25,6 @@
     "ts-jest": "^27.1.1",
     "tslib": "^2.3.1",
     "typescript": "~4.7.4"
-
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
