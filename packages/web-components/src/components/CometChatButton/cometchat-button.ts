@@ -13,6 +13,7 @@ export class CometChatButton extends LitElement{
       CometChatSoundManager.play(CometChatSoundManager.Sound.outgoingMessage)
 
     };
+    // test 
    @property({type:Object}) style: any = {
     height:"fit-content",
     width:"fit-content",
