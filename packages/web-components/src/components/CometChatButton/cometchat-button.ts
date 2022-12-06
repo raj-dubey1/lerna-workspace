@@ -1,6 +1,6 @@
 import { LitElement, html, css, PropertyPart, PropertyValueMap } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
-import { CometChatSoundManager } from 'uikit-utils';
+import { CometChatSoundManager } from 'uikit-utils-lerna';
 import {styleMap} from 'lit/directives/style-map.js';
 
 @customElement('cometchat-button')
