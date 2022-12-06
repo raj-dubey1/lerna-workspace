@@ -8,7 +8,7 @@
 39 error npm ERR! 404 tarball, folder, http url, or git url.
 39 error
 39 error npm ERR! A complete log of this run can be found in:
-39 error npm ERR!     /Users/rajdubey/.npm/_logs/2022-12-06T20_21_42_930Z-debug-0.log
+39 error npm ERR!     /Users/rajdubey/.npm/_logs/2022-12-06T20_22_50_548Z-debug-0.log
 39 error     at makeError (/Volumes/Samsung_T5/lerna-workspace/lerna-workspace/node_modules/execa/lib/error.js:60:11)
 39 error     at handlePromise (/Volumes/Samsung_T5/lerna-workspace/lerna-workspace/node_modules/execa/index.js:118:26)
 39 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
