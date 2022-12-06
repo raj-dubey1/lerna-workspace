@@ -1,5 +1,15 @@
-43 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin prelerna
-43 error remote: Permission to lerna/getting-started-example.git denied to raj-dubey1.
-43 error fatal: unable to access 'https://github.com/lerna/getting-started-example.git/': The requested URL returned error: 403
-43 error     at makeError (/Volumes/Samsung_T5/lerna-workspace/getting-started-example/node_modules/execa/lib/error.js:60:11)
-43 error     at handlePromise (/Volumes/Samsung_T5/lerna-workspace/getting-started-example/node_modules/execa/index.js:118:26)
+39 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+39 error npm ERR! code E404
+39 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/uikit-utils - Not found
+39 error npm ERR! 404
+39 error npm ERR! 404  'uikit-utils@^0.0.8' is not in this registry.
+39 error npm ERR! 404
+39 error npm ERR! 404 Note that you can also install from a
+39 error npm ERR! 404 tarball, folder, http url, or git url.
+39 error
+39 error npm ERR! A complete log of this run can be found in:
+39 error npm ERR!     /Users/rajdubey/.npm/_logs/2022-12-06T20_20_10_632Z-debug-0.log
+39 error     at makeError (/Volumes/Samsung_T5/lerna-workspace/lerna-workspace/node_modules/execa/lib/error.js:60:11)
+39 error     at handlePromise (/Volumes/Samsung_T5/lerna-workspace/lerna-workspace/node_modules/execa/index.js:118:26)
+39 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+39 error     at async Promise.all (index 0)
