@@ -1,5 +1,5 @@
 {
-  "name": "header",
+  "name": "header-lerna",
   "version": "0.0.1",
   "main": "dist/index.js",
   "scripts": {
@@ -21,5 +21,6 @@
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "ca2930bfc84c83f6a5ee4b9571cc8f14b398545c"
 }
