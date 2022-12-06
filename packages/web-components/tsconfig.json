@@ -7,8 +7,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "inlineSources": true,
-    
-
+    "outDir": "./dist/out-tsc",
     "strict": true,
 
    
@@ -29,6 +28,6 @@
     ]
   },
   "types": "index.d.ts",
-  "include": ["src/index.ts"],
+  "include": ["src/index.ts", "**/*.d.ts"],
   "exclude": []
 }
