@@ -1,5 +1,5 @@
 
-import   {callConstants} from "../UIKitConstants/constants";
+import   {callConstants} from "..";
 export class CometChatSoundManager {
 	static audio:string | null | HTMLAudioElement = null;
 	static Sound :sounds = Object.freeze({
