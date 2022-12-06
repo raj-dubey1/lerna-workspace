@@ -1011,6 +1011,7 @@ exports.CometChatSearch = class CometChatSearch extends lit.LitElement {
         this.placeholderText = "Start typing...";
         this.searchCallback = () => { };
         this.searchIconURL = `../assets/search.svg`;
+        // allalala
         this.style = {
             height: "fit-content",
             width: "fit-content",
