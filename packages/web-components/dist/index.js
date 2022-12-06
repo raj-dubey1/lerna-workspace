@@ -1010,7 +1010,7 @@ exports.CometChatSearch = class CometChatSearch extends lit.LitElement {
         this.searchText = "";
         this.placeholderText = "Start typing...";
         this.searchCallback = () => { };
-        this.searchIconURL = `src/components/assets/search.svg`;
+        this.searchIconURL = `../assets/search.svg`;
         this.style = {
             height: "fit-content",
             width: "fit-content",
