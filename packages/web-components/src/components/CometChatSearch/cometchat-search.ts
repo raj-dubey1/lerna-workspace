@@ -11,7 +11,7 @@ export class CometChatSearch extends LitElement {
   @property() searchText: string = "";
   @property() placeholderText: string = "Start typing...";
   @property({type: Function}) searchCallback:Function = ()=>{};
-  @property() searchIconURL: string = `src/components/assets/search.svg`;
+  @property() searchIconURL: string = `../assets/search.svg`;
  
   @property() style: any = {
     height: "fit-content",
