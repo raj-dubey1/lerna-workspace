@@ -1,5 +1,6 @@
 import typescript from 'rollup-plugin-typescript2';
-import {copy} from '@web/rollup-plugin-copy';
+// import {copy} from '@web/rollup-plugin-copy';
+import copy from "rollup-plugin-copy-assets";
 
 export default {
     input: ["src/index.ts"],
@@ -14,7 +15,11 @@ export default {
     plugins: [
         typescript(),
         copy({
-            patterns: ['images/**/*'],
+            assets: [
+              // You can include directories
+              "src/components/assets",
+            ],
           }),
+      
     ],
 };
