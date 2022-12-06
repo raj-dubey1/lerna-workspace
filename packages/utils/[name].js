@@ -199,4 +199,4 @@ CometChatSoundManager.handlers = {
 
 exports.CometChatSoundManager = CometChatSoundManager;
 exports.callConstants = callConstants;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=[name].js.map

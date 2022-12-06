@@ -1,4 +1,4 @@
-declare class CometChatSoundManager {
+export declare class CometChatSoundManager {
     static audio: string | null | HTMLAudioElement;
     static Sound: sounds;
     /**
@@ -35,26 +35,11 @@ declare class CometChatSoundManager {
     static play(sound: any, customSound?: string | null): any;
     static pause(): void;
 }
-interface sounds {
+export interface sounds {
     incomingCall?: string;
     incomingMessage?: string;
     incomingMessageFromOther: string;
     outgoingCall?: string;
     outgoingMessage?: string;
 }
-
-declare const callConstants: {
-    incomingCall: string;
-    incomingMessage: string;
-    incomingMessageFromOther: string;
-    outgoingCall: string;
-    outgoingMessage: string;
-    INCOMING_CALL_RECEIVED: string;
-    OUTGOING_CALL_ACCEPTED: string;
-    OUTGOING_CALL_REJECTED: string;
-    INCOMING_CALL_CANCELLED: string;
-    CALL_SCREEN_: string;
-    CALL_TYPE_DIRECT: string;
-};
-
-export { CometChatSoundManager, callConstants };
+//# sourceMappingURL=SoundManager.d.ts.map

@@ -27,7 +27,6 @@
       }
     ]
   },
-  "types": "index.d.ts",
-  "include": ["./index.ts"],
+  "include": ["./index.ts", "**/*.d.ts"],
   "exclude": []
 }
