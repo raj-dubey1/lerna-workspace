@@ -1,5 +1,5 @@
 {
-  "name": "uikit-utils",
+  "name": "uikit-utils-lerna",
   "private": false,
   "version": "0.1.1",
   "scripts": {
@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "9161bd31d8824eb82d9dc3e8e1a451b1f4758ed7"
 }

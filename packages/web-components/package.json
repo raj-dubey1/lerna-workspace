@@ -29,5 +29,6 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "customElements": "custom-elements.json"
+  "customElements": "custom-elements.json",
+  "gitHead": "9161bd31d8824eb82d9dc3e8e1a451b1f4758ed7"
 }
