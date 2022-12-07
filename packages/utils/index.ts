@@ -1,5 +1,6 @@
 
 import   {callConstants} from "./UIKitConstants/constants";
 import {CometChatSoundManager} from './SoundManager/SoundManager'
-
-export {callConstants,CometChatSoundManager}
+import {outgoingMessage} from './SoundManager/SoundManager'
+import {soundMessage} from './SoundManager/SoundManager'
+export {callConstants,outgoingMessage,soundMessage,CometChatSoundManager}

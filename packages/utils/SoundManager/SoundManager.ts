@@ -1,5 +1,8 @@
 
 import   {callConstants} from "..";
+// import outgoingMessage from './audio/outgoingmessage.wav';
+export const outgoingMessage = require("./audio/outgoingmessage.wav");
+export const soundMessage = require("./SoundManager/audio/outgoingmessage.wav")
 export class CometChatSoundManager {
 	static audio:string | null | HTMLAudioElement = null;
 	static Sound :sounds = Object.freeze({
@@ -41,12 +44,13 @@ export class CometChatSoundManager {
 	 * @param  {string|null=null} customSound
 	 */
 	static onOutgoingMessage = (customSound:string | null = null) => {
+		console.log(outgoingMessage,soundMessage)
 		if (customSound) {
 			CometChatSoundManager.audio = new Audio(customSound);
 			CometChatSoundManager.audio.currentTime = 0;
 			CometChatSoundManager.audio.play();
 		} else {
-			CometChatSoundManager.audio = new Audio('.SoundManager/audio/outgoingmessage.wav');
+			CometChatSoundManager.audio = new Audio(soundMessage || outgoingMessage);
 				CometChatSoundManager.audio.currentTime = 0;
 				CometChatSoundManager.audio.play();
 		}
