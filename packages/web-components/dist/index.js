@@ -5,6 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 var lit = require('lit');
 var decorators_js = require('lit/decorators.js');
 var styleMap_js = require('lit/directives/style-map.js');
+var uikitUtilsLerna = require('uikit-utils-lerna');
 
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -571,6 +572,7 @@ exports.CometChatButton = class CometChatButton extends lit.LitElement {
         this.iconURL = "";
         this.hoverText = "";
         this.onClick = () => {
+            console.log(uikitUtilsLerna.callConstants);
             // CometChatSoundManager.play(CometChatSoundManager.Sound.outgoingMessage)
         };
         this.style = {

@@ -1,6 +1,6 @@
 import { LitElement, html, css, PropertyPart, PropertyValueMap } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
-// import { CometChatSoundManager } from 'uikit-utils-lerna';
+import { callConstants } from 'uikit-utils-lerna';
 import {styleMap} from 'lit/directives/style-map.js';
 
 @customElement('cometchat-button')
@@ -10,6 +10,7 @@ export class CometChatButton extends LitElement{
     @property() iconURL:string="";
     @property() hoverText:string = ""
     @property({type:Function}) onClick:any = ()=>{
+      console.log(callConstants)
       // CometChatSoundManager.play(CometChatSoundManager.Sound.outgoingMessage)
 
     };
