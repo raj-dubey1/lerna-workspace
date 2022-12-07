@@ -1,5 +1,3 @@
-export declare const outgoingMessage: any;
-export declare const soundMessage: any;
 export declare class CometChatSoundManager {
     static audio: string | null | HTMLAudioElement;
     static Sound: sounds;

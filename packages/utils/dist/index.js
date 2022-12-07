@@ -39,9 +39,6 @@ Object.freeze({
     links: "links",
 });
 
-// import outgoingMessage from './audio/outgoingmessage.wav';
-const outgoingMessage = require("./audio/outgoingmessage.wav");
-const soundMessage = require("./SoundManager/audio/outgoingmessage.wav");
 class CometChatSoundManager {
     /**
      * @param  {string} sound
@@ -103,14 +100,13 @@ CometChatSoundManager.onIncomingOtherMessage = (customSound = null) => {
  * @param  {string|null=null} customSound
  */
 CometChatSoundManager.onOutgoingMessage = (customSound = null) => {
-    console.log(outgoingMessage, soundMessage);
     if (customSound) {
         CometChatSoundManager.audio = new Audio(customSound);
         CometChatSoundManager.audio.currentTime = 0;
         CometChatSoundManager.audio.play();
     }
     else {
-        CometChatSoundManager.audio = new Audio(soundMessage || outgoingMessage);
+        CometChatSoundManager.audio = new Audio('./audio/outgoingmessage.wav');
         CometChatSoundManager.audio.currentTime = 0;
         CometChatSoundManager.audio.play();
     }
@@ -203,5 +199,3 @@ CometChatSoundManager.handlers = {
 
 exports.CometChatSoundManager = CometChatSoundManager;
 exports.callConstants = callConstants;
-exports.outgoingMessage = outgoingMessage;
-exports.soundMessage = soundMessage;

@@ -15,6 +15,7 @@
     "jest": "^27.4.3",
     "lit": "^2.2.4",
     "lit-analyzer": "^1.2.1",
+    "uikit-utils-lerna":"*",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.60.2",
