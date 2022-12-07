@@ -2,6 +2,43 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
+const callConstants = {
+    incomingCall: "incomingCall",
+    incomingMessage: "incomingMessage",
+    incomingMessageFromOther: "incomingMessageFromOther",
+    outgoingCall: "outgoingCall",
+    outgoingMessage: "outgoingMessage",
+    INCOMING_CALL_RECEIVED: "onIncomingCallReceived",
+    OUTGOING_CALL_ACCEPTED: "onOutgoingCallAccepted",
+    OUTGOING_CALL_REJECTED: "onOutgoingCallRejected",
+    INCOMING_CALL_CANCELLED: "onIncomingCallCancelled",
+    CALL_SCREEN_: "callscreen_",
+    CALL_TYPE_DIRECT: "DIRECT_CALL",
+};
+Object.freeze({
+    file: "file",
+    liveReaction: "live_reaction",
+    extension: "extensions",
+    extensions: {
+        thumbnailGeneration: "thumbnail-generation",
+        polls: "polls",
+        document: "document",
+        whiteboard: "whiteboard",
+        xssfilter: "xss-filter",
+        datamasking: "data-masking",
+        profanityfilter: "profanity-filter",
+        reactions: "reactions",
+        linkpreview: "link-preview",
+        smartReply: "smart-reply",
+        REPLY_POSITIVE: "reply_positive",
+        REPLY_NEUTRAL: "reply_neutral",
+        REPLY_NEGATIVE: "reply_negative",
+    },
+    metadata: "metadata",
+    injected: "@injected",
+    links: "links",
+});
+
 class CometChatSoundManager {
     /**
      * @param  {string} sound
@@ -159,43 +196,6 @@ CometChatSoundManager.handlers = {
     incomingMessageFromOther: CometChatSoundManager.onIncomingOtherMessage,
     outgoingMessage: CometChatSoundManager.onOutgoingMessage,
 };
-
-const callConstants = {
-    incomingCall: "incomingCall",
-    incomingMessage: "incomingMessage",
-    incomingMessageFromOther: "incomingMessageFromOther",
-    outgoingCall: "outgoingCall",
-    outgoingMessage: "outgoingMessage",
-    INCOMING_CALL_RECEIVED: "onIncomingCallReceived",
-    OUTGOING_CALL_ACCEPTED: "onOutgoingCallAccepted",
-    OUTGOING_CALL_REJECTED: "onOutgoingCallRejected",
-    INCOMING_CALL_CANCELLED: "onIncomingCallCancelled",
-    CALL_SCREEN_: "callscreen_",
-    CALL_TYPE_DIRECT: "DIRECT_CALL",
-};
-Object.freeze({
-    file: "file",
-    liveReaction: "live_reaction",
-    extension: "extensions",
-    extensions: {
-        thumbnailGeneration: "thumbnail-generation",
-        polls: "polls",
-        document: "document",
-        whiteboard: "whiteboard",
-        xssfilter: "xss-filter",
-        datamasking: "data-masking",
-        profanityfilter: "profanity-filter",
-        reactions: "reactions",
-        linkpreview: "link-preview",
-        smartReply: "smart-reply",
-        REPLY_POSITIVE: "reply_positive",
-        REPLY_NEUTRAL: "reply_neutral",
-        REPLY_NEGATIVE: "reply_negative",
-    },
-    metadata: "metadata",
-    injected: "@injected",
-    links: "links",
-});
 
 exports.CometChatSoundManager = CometChatSoundManager;
 exports.callConstants = callConstants;
