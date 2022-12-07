@@ -46,7 +46,7 @@ export class CometChatSoundManager {
 			CometChatSoundManager.audio.currentTime = 0;
 			CometChatSoundManager.audio.play();
 		} else {
-			CometChatSoundManager.audio = new Audio('./audio/outgoingmessage.wav');
+			CometChatSoundManager.audio = new Audio('.SoundManager/audio/outgoingmessage.wav');
 				CometChatSoundManager.audio.currentTime = 0;
 				CometChatSoundManager.audio.play();
 		}
